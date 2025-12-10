@@ -1,0 +1,15 @@
+{
+  "name": "ebac-agenda-contatos-tests",
+  "version": "1.0.0",
+  "description": "Testes E2E para aplicação de agenda de contatos",
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress open",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "@faker-js/faker": "^8.4.1"
+  }
+}
